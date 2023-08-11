@@ -1,11 +1,14 @@
+'use client'
 import Header from '@/components/Head'
+import ProjectCards from '@/components/ProjectCards'
 
 export default function Projects() {
   return (
     <main>
       <Header />
-      <div className="mt-16 flex justify-center">
-        <h1 className="text-zinc-300">Projects</h1>
+      <h1 className="flex justify-center p-8 text-zinc-300">Projects</h1>
+      <div>
+        <ProjectCards />
       </div>
     </main>
   )

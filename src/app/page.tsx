@@ -9,9 +9,9 @@ export default function Home() {
         <Image
           src="/HenriqueS.jpg"
           alt="Picture of Henrique"
-          width={400}
-          height={400}
-          className="rounded-lg ring-4 ring-slate-600"
+          width={350}
+          height={350}
+          className="rounded-full ring-4 ring-blue-300 ring-offset-4 ring-offset-slate-50 dark:ring-offset-slate-900"
         />
       </div>
     </main>

@@ -9,8 +9,8 @@ export default function Header() {
   const currentLinkStyle = 'text-lg text-slate-300 color-slate-600'
 
   return (
-    <header className="flex w-full flex-row justify-between bg-slate-600 p-6 font-mono">
-      <nav className="flex flex-row justify-start gap-5 pl-4">
+    <header className="flex w-full flex-row justify-between bg-gradient-to-r from-cyan-500 to-blue-500 p-6 font-mono">
+      <nav className="flex animate-pulse flex-row justify-start gap-5 pl-4">
         <Link
           href="https://www.linkedin.com/in/henrique-serres/"
           className="text-2xl hover:text-slate-300"
