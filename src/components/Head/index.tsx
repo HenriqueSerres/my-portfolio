@@ -25,7 +25,7 @@ export default function Header() {
         </Link>
       </nav>
       <div>
-        <h1 className="text-4xl">{`Hi, I'm Henrique Serres`}</h1>
+        <h1 className="text-4xl">{`Hi, I'm Henrique Serres.`}</h1>
       </div>
       <nav className="flex flex-row justify-end gap-5 pr-4 text-center">
         <Link

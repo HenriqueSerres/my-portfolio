@@ -1,6 +1,7 @@
 export const myProjects = [
   {
     name: 'Recepies App',
+    icon: '/recipies.png',
     description:
       'App de receitas, descubra, aprenda, faça e favorite suas receitas preferidas. Projeto em grupo desenvolvido em React Hooks e metodologias ágeis.',
     category: 'Front-end',
@@ -9,6 +10,7 @@ export const myProjects = [
   },
   {
     name: 'Wallet',
+    icon: '/wallet.png',
     description:
       'Carteira digital para administrar suas finanças com suas respectivas moedas. Projeto desenvolvido em componentes de classe React e Redux',
     category: 'Front-end',
@@ -17,6 +19,7 @@ export const myProjects = [
   },
   {
     name: 'Jogo Trunfo',
+    icon: '/pokemon.png',
     description:
       'Jogo Super Trunfo, você pode criar suas cartas em um CRUD desenvolvido em componentes de classe React.',
     category: 'Front-end',
@@ -25,6 +28,7 @@ export const myProjects = [
   },
   {
     name: 'Trybetunes',
+    icon: '/music.png',
     description:
       'App de música, crie seu perfil para buscar, ouvir, e criar sua lista de músicas favoritas. Projeto desenvolvido em componentes de classe React.',
     category: 'Front-end',
@@ -33,6 +37,7 @@ export const myProjects = [
   },
   {
     name: 'Frontend Online Store',
+    icon: '/store.png',
     description:
       'App de compras (API do Mercado Livre). Desenvolvido em grupo ultilizando metodologias ágeis. Projeto desenvolvido em componentes de classe React.',
     category: 'Front-end',
@@ -41,6 +46,7 @@ export const myProjects = [
   },
   {
     name: 'React testing library',
+    icon: '/test.png',
     description: 'Testes de integração em React',
     category: 'Front-end',
     tolls: ['React', 'Javascript', 'RTL'],
@@ -48,6 +54,7 @@ export const myProjects = [
   },
   {
     name: 'Zoo Functions',
+    icon: '/zoo.png',
     description:
       'Projeto para utilizar as Higher Order Functions para manipular e criar arrays.',
     category: 'Front-end',
@@ -56,6 +63,7 @@ export const myProjects = [
   },
   {
     name: 'Playground Functions',
+    icon: '/playground.png',
     description: 'Projeto para treinar lógica de programação.',
     category: 'Front-end',
     tolls: ['ES6', 'Javascript'],
@@ -63,6 +71,7 @@ export const myProjects = [
   },
   {
     name: 'Pixels Art',
+    icon: '/paint.png',
     description: 'Projeto para treinar lógica de programação, html e css.',
     category: 'Front-end',
     tolls: ['ES6', 'Javascript', 'HTML', 'CSS'],
@@ -70,6 +79,7 @@ export const myProjects = [
   },
   {
     name: ' Jogo Trivia',
+    icon: '/trivia.png',
     description:
       'Jogo "Quem quer ser um milionário" desenvolvido em grupo ultilizando metodologias ágeis. Projeto desenvolvido em componentes de classe React e Redux.',
     category: 'Front-end',
@@ -78,6 +88,7 @@ export const myProjects = [
   },
   {
     name: ' Solar System',
+    icon: '/sun.png',
     description:
       'Desenvolvemos um modelo do Sistema Solar em React com criação de componentes de classe e passagem de props.',
     category: 'Front-end',
@@ -86,6 +97,7 @@ export const myProjects = [
   },
   {
     name: 'Star wars',
+    icon: '/starwars.png',
     description:
       'Consumindo a API do StarWars e ultilizando componentes funcionais do React e Hooks, esse projeto lista todos os planetas do filme através de múltiplos filtros.',
     category: 'Front-end',
@@ -94,6 +106,7 @@ export const myProjects = [
   },
   {
     name: 'Docker To Do List',
+    icon: '/docker.png',
     description:
       'Projeto feito com objetivo de aprender e entender os comandos do Docker.',
     category: 'Back-end',
@@ -102,6 +115,7 @@ export const myProjects = [
   },
   {
     name: 'To Do List',
+    icon: '/todo.png',
     description: 'Lista de tarefas usando HTML, CSS e JavaScript.',
     category: 'Front-end',
     tolls: ['HTML', 'CSS', 'Javascript'],
@@ -109,6 +123,7 @@ export const myProjects = [
   },
   {
     name: 'All For One',
+    icon: '/database-reg.png',
     description:
       'Projeto feito com objetivo de aprender e entender os comandos básicos do MySQL.',
     category: 'Back-end',
@@ -117,6 +132,7 @@ export const myProjects = [
   },
   {
     name: 'One For All',
+    icon: '/database-adm.png',
     description:
       'Projeto feito com objetivo de aprender e entender os comandos do MySQL (filtragem de dados, manipulação de tabelas). ',
     category: 'Back-end',
@@ -125,6 +141,7 @@ export const myProjects = [
   },
   {
     name: 'Talker Manager',
+    icon: '/api-rest.png',
     description:
       'API para cadastro (CRUD) de palestrantes desenvolvido em Node.js.',
     category: 'Back-end',
@@ -133,6 +150,7 @@ export const myProjects = [
   },
   {
     name: 'Store Manager',
+    icon: '/api.png',
     description:
       'A API é um sistema de gerenciamento de vendas no formato dropshipping em que será possível criar, visualizar, deletar e atualizar produtos e vendas. (CRUD)',
     category: 'Back-end',
@@ -141,6 +159,7 @@ export const myProjects = [
   },
   {
     name: 'Blogs API',
+    icon: '/blog.png',
     description:
       'API e um banco de dados para a produção de conteúdo para um blog. Desenvolvido com ORM Sequelize e MySQL.',
     category: 'Back-end',
@@ -156,6 +175,7 @@ export const myProjects = [
   },
   {
     name: 'Stranger Things - Backend',
+    icon: '/monster.png',
     description: 'Meu primeiro Deploy.',
     category: 'Back-end',
     tolls: ['Heroku', 'Javascript', 'Node.js'],
@@ -163,6 +183,7 @@ export const myProjects = [
   },
   {
     name: 'Stranger Things - Frontend',
+    icon: '/monster-mouth.png',
     description: 'Meu primeiro Deploy.',
     category: 'Back-end',
     tolls: ['Heroku', 'Javascript', 'Node.js'],
@@ -170,6 +191,7 @@ export const myProjects = [
   },
   {
     name: 'Trybesmith',
+    icon: '/medieval.png',
     description:
       'Uma loja de itens medievais, no formato de uma API, utilizando Typescript.',
     category: 'Back-end',
@@ -178,6 +200,7 @@ export const myProjects = [
   },
   {
     name: 'Trybers and Dragons',
+    icon: '/dragon.png',
     description:
       'Projeto com o objetivo de entender os princípios da arquitetura SOLID e POO em uma estrutura de jogos de interpretação de papéis, mais conhecidos como jogos RPG ',
     category: 'Back-end',
@@ -186,6 +209,7 @@ export const myProjects = [
   },
   {
     name: 'Trybe Futebol Club',
+    icon: '/football.png',
     description:
       'O TFC é um site informativo sobre partidas e classificações de futebol!',
     category: 'Back-end',
@@ -202,6 +226,7 @@ export const myProjects = [
   },
   {
     name: 'Commerce - MongoDB',
+    icon: '/commerce.png',
     description:
       'Projeto feito com objetivo de aprender e entender os comandos básicos do MongoDb.',
     category: 'Back-end',
@@ -210,6 +235,7 @@ export const myProjects = [
   },
   {
     name: 'Car Shop',
+    icon: '/car.png',
     description:
       'API desenvolvida para gerenciar uma concessionária de veículos, utilizando o banco de dados MongoDB e ODM. (POO)',
     category: 'Back-end',
@@ -218,6 +244,7 @@ export const myProjects = [
   },
   {
     name: 'Shopping Cart',
+    icon: '/cart.png',
     description:
       'Carrinho de compras totalmente dinâmico! E o melhor: consumindo dados diretamente da API do Mercado Livre!',
     category: 'Front-end',
@@ -226,6 +253,7 @@ export const myProjects = [
   },
   {
     name: 'Delivery App',
+    icon: '/delivery.png',
     description:
       'Projeto em grupo com o objetivo de criar uma aplicação de delivery de comida, com a possibilidade de o cliente escolher o que comer e a empresa entregar o pedido. (POO)',
     category: 'Full Stack',
@@ -234,6 +262,7 @@ export const myProjects = [
   },
   {
     name: 'Jobs insights',
+    icon: '/job.png',
     description:
       'Ciência da Computação: Análises a partir de um conjunto de dados sobre empregos.',
     category: 'Back-end',
@@ -242,6 +271,7 @@ export const myProjects = [
   },
   {
     name: 'Inventory report',
+    icon: '/inventory.png',
     description:
       'Ciência da Computação: Gerador de relatórios que recebe como entrada arquivos com dados de um estoque e gera, como saída, um relatório acerca destes dados. (POO)',
     category: 'Back-end',
@@ -250,6 +280,7 @@ export const myProjects = [
   },
   {
     name: 'Tech News',
+    icon: '/tech.png',
     description:
       'Ciência da Computação: Projeto que tem como principal objetivo fazer consultas em notícias sobre tecnologia (Raspagem de dados).',
     category: 'Back-end',
@@ -258,6 +289,7 @@ export const myProjects = [
   },
   {
     name: 'Algorithms',
+    icon: '/algorithms.png',
     description:
       'Ciência da Computação: Projeto com objetivo de resolver problemas/Otimizar algoritmos sob pressão.',
     category: 'Back-end',
@@ -266,6 +298,7 @@ export const myProjects = [
   },
   {
     name: 'Trybe is not Google',
+    icon: '/google.png',
     description:
       'Ciência da Computação: Programa que simula um algoritmo de indexação de documentos similar ao do Google. Seu programa é ser capaz de identificar ocorrências de termos em arquivos TXT.',
     category: 'Back-end',
@@ -274,6 +307,7 @@ export const myProjects = [
   },
   {
     name: 'TrybeWarts',
+    icon: '/trybewarts.png',
     description:
       'Projeto em dupla com o objetivo de criar um sistema de gerenciamento de alunos de uma escola de magia.',
     category: 'Front-end',
@@ -282,6 +316,7 @@ export const myProjects = [
   },
   {
     name: 'Unit Tests - JavaScript',
+    icon: '/unit-tests.png',
     description:
       'Projeto em dupla com o objetivo de criar um sistema de gerenciamento de alunos de uma escola de magia.',
     category: 'Front-end',
@@ -290,6 +325,7 @@ export const myProjects = [
   },
   {
     name: 'Restaurant Orders',
+    icon: '/restaurant.png',
     description:
       'Ciência da Computação: Sistema que gera relatórios sobre os pedidos e as pessoas clientes que frequentam a lanchonete',
     category: 'Back-end',
