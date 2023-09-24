@@ -5,8 +5,8 @@ export default function Home() {
   return (
     <main>
       <Header />
-      <div className="grid-col-2 mt-20 grid">
-        <div className="mt-6 grid grid-cols-2">
+      <div className="mt-10 lg:mt-20">
+        <div className="mt-6 grid grid-cols-none lg:grid-cols-2">
           <div className="grid justify-center">
             <Image
               src="/HenriqueS.jpg"
@@ -16,7 +16,7 @@ export default function Home() {
               className="rounded-full ring-4 ring-blue-300 ring-offset-4 ring-offset-slate-50 dark:ring-offset-slate-900"
             />
           </div>
-          <div className="grid grid-cols-4 gap-4">
+          <div className="justtify-center mt-10 grid grid-cols-3 gap-1 lg:grid-cols-4 lg:gap-4">
             <Image
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original-wordmark.svg"
               alt="nextjs icon"
