@@ -2,8 +2,7 @@ export const myProjects = [
   {
     name: 'Recepies App',
     icon: '/recipies.png',
-    description:
-      'App de receitas, descubra, aprenda, faça e favorite suas receitas preferidas. Projeto em grupo desenvolvido em React Hooks e metodologias ágeis.',
+    description: 'Learn, found and turn favorit recipies. Group project.',
     category: 'Front-end',
     tolls: ['React', 'Javascript'],
     git: 'https://github.com/HenriqueSerres/Recipes-App-Proj-18',
@@ -11,8 +10,7 @@ export const myProjects = [
   {
     name: 'Wallet',
     icon: '/wallet.png',
-    description:
-      'Carteira digital para administrar suas finanças com suas respectivas moedas. Projeto desenvolvido em componentes de classe React e Redux',
+    description: 'Digital wallet to manage your finances',
     category: 'Front-end',
     tolls: ['React', 'Javascript', 'Redux'],
     git: 'https://github.com/HenriqueSerres/Trybe-Wallet-Proj-15',
@@ -20,8 +18,7 @@ export const myProjects = [
   {
     name: 'Jogo Trunfo',
     icon: '/pokemon.png',
-    description:
-      'Jogo Super Trunfo, você pode criar suas cartas em um CRUD desenvolvido em componentes de classe React.',
+    description: 'Super Trunfo game,  you can create personalized cards.',
     category: 'Front-end',
     tolls: ['React', 'Javascript'],
     git: 'https://github.com/HenriqueSerres/Tryunfo-Proj-11',
@@ -30,7 +27,7 @@ export const myProjects = [
     name: 'Trybetunes',
     icon: '/music.png',
     description:
-      'App de música, crie seu perfil para buscar, ouvir, e criar sua lista de músicas favoritas. Projeto desenvolvido em componentes de classe React.',
+      'Music App. Create your profile to search, listen, and create your favorite music list.',
     category: 'Front-end',
     tolls: ['React', 'Javascript'],
     git: 'https://github.com/HenriqueSerres/Trybetunes-Proj-12',
@@ -39,7 +36,7 @@ export const myProjects = [
     name: 'Frontend Online Store',
     icon: '/store.png',
     description:
-      'App de compras (API do Mercado Livre). Desenvolvido em grupo ultilizando metodologias ágeis. Projeto desenvolvido em componentes de classe React.',
+      'Online Store App (Mercado Libre API). Group project using agile methodologies.',
     category: 'Front-end',
     tolls: ['React', 'Javascript'],
     git: 'https://github.com/HenriqueSerres/Frontend-Online-Store-Proj-13',
@@ -47,7 +44,7 @@ export const myProjects = [
   {
     name: 'React testing library',
     icon: '/test.png',
-    description: 'Testes de integração em React',
+    description: 'Integration Tests in React',
     category: 'Front-end',
     tolls: ['React', 'Javascript', 'RTL'],
     git: 'https://github.com/HenriqueSerres/Testes-React-Proj-14',
@@ -56,7 +53,7 @@ export const myProjects = [
     name: 'Zoo Functions',
     icon: '/zoo.png',
     description:
-      'Projeto para utilizar as Higher Order Functions para manipular e criar arrays.',
+      'Project to use the Higher Order Functions to manipulate and create arrays.',
     category: 'Front-end',
     tolls: ['ES6', 'Javascript', 'HOF'],
     git: 'https://github.com/HenriqueSerres/Zoo-Functions-Proj-8',
@@ -64,7 +61,7 @@ export const myProjects = [
   {
     name: 'Playground Functions',
     icon: '/playground.png',
-    description: 'Projeto para treinar lógica de programação.',
+    description: 'Project to train programming logic.',
     category: 'Front-end',
     tolls: ['ES6', 'Javascript'],
     git: 'https://github.com/HenriqueSerres/Playground-Functions-Proj-4',
@@ -72,7 +69,7 @@ export const myProjects = [
   {
     name: 'Pixels Art',
     icon: '/paint.png',
-    description: 'Projeto para treinar lógica de programação, html e css.',
+    description: 'Project to train programming logic, html e css.',
     category: 'Front-end',
     tolls: ['ES6', 'Javascript', 'HTML', 'CSS'],
     git: 'https://github.com/HenriqueSerres/Pixels-Art-Proj.3',
@@ -81,7 +78,7 @@ export const myProjects = [
     name: ' Jogo Trivia',
     icon: '/trivia.png',
     description:
-      'Jogo "Quem quer ser um milionário" desenvolvido em grupo ultilizando metodologias ágeis. Projeto desenvolvido em componentes de classe React e Redux.',
+      '"Who wants to be a millionaire" game, group project, using agile methodologies.',
     category: 'Front-end',
     tolls: ['React', 'Javascript', 'Redux'],
     git: 'https://github.com/HenriqueSerres/Jogo-Trivia-Proj-16',
@@ -89,8 +86,7 @@ export const myProjects = [
   {
     name: ' Solar System',
     icon: '/sun.png',
-    description:
-      'Desenvolvemos um modelo do Sistema Solar em React com criação de componentes de classe e passagem de props.',
+    description: 'I developed a model of the Solar System in React.',
     category: 'Front-end',
     tolls: ['React', 'Javascript', 'Redux'],
     git: 'https://github.com/HenriqueSerres/Solar-System-Proj-10',

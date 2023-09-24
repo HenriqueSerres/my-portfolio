@@ -65,7 +65,7 @@ export default function ProjectCards() {
           >
             <Link
               href={project.git}
-              className="flex justify-end text-2xl text-cyan-500 hover:text-blue-500"
+              className="flex w-min justify-end text-2xl text-cyan-500 hover:text-blue-500"
             >
               <FaGithub />
             </Link>
