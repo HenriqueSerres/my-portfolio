@@ -11,10 +11,8 @@ const initValues = {
 
 export default function Contact() {
   const [contactForm, setContactForm] = useState(initValues)
-  const [loading, setLoading] = useState(false)
 
   const sendEmail = async (e: any) => {
-    setLoading(true)
     e.preventDefault()
     const response = await fetch('/api/send', {
       method: 'POST',
@@ -32,15 +30,15 @@ export default function Contact() {
   return (
     <>
       <Header />
-      <h1 className="flex justify-center p-8 text-4xl text-zinc-300">
+      <h1 className="flex justify-center p-4 text-xl text-zinc-300 lg:p-8 lg:text-4xl">
         Contact Me
       </h1>
-      <h3 className="flex justify-center p-1 text-xl text-zinc-300">
+      <h3 className="flex justify-center p-3 text-zinc-300 lg:text-xl">
         I am available for freelance or full-time positions. Contact me and lets
         talk.
       </h3>
       <div className="flex h-screen w-screen justify-center ">
-        <form className="flex h-fit w-4/12 flex-col gap-5 rounded bg-white/5 p-4 shadow-lg shadow-cyan-500/50 transition-colors hover:bg-white/10">
+        <form className="flex h-fit w-5/6 flex-col gap-5 rounded bg-white/5 p-4 shadow-lg shadow-cyan-500/50 transition-colors hover:bg-white/10 lg:w-4/12">
           <input
             placeholder="Your Name"
             name="name"
