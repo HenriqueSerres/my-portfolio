@@ -36,7 +36,7 @@ export default function About() {
           Resume
         </button>
       </div>
-      <div className="mt-5 grid items-center justify-center  gap-10 p-8 lg:grid-cols-3 lg:gap-20">
+      <div className="mt-5 grid items-center gap-10  p-8 lg:grid-cols-3 lg:justify-items-center lg:gap-20">
         <Image
           src="/family1.jpg"
           alt="family together"
