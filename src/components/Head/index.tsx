@@ -15,8 +15,8 @@ export default function Header() {
 
   return (
     <>
-      <header className="flex w-full flex-row justify-between bg-gradient-to-r from-cyan-500 to-blue-500 p-6 font-mono">
-        <nav className="flex animate-pulse flex-row justify-start gap-5 pl-4">
+      <header className="flex w-full flex-row justify-between bg-gradient-to-r from-cyan-500 to-blue-500 p-4 font-mono lg:p-6">
+        <nav className="flex animate-pulse flex-row justify-start gap-5 pr-2 lg:pl-4">
           <Link
             href="https://www.linkedin.com/in/henrique-serres/"
             className="text-2xl hover:text-slate-300"
@@ -31,7 +31,7 @@ export default function Header() {
           </Link>
         </nav>
         <div>
-          <h1 className="text-4xl">{`Hi, I'm Henrique Serres.`}</h1>
+          <h1 className="mt-2 text-sm font-extrabold lg:text-4xl">{`Hi, I'm Henrique Serres.`}</h1>
         </div>
         <nav>
           <div className="hidden flex-row justify-end gap-5 pr-4 text-center lg:flex">

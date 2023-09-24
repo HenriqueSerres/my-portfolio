@@ -40,10 +40,10 @@ export default function ProjectCards() {
   return (
     <section>
       <div className="flex justify-center gap-3 p-8">
-        <h1 className="flex items-center justify-between rounded-lg border-4 border-transparent bg-cyan-400 p-4 text-lg font-bold tracking-wider">
+        <h1 className="flex items-center justify-between rounded-lg border-4 border-transparent bg-cyan-400 p-1 text-xs font-bold tracking-wider lg:p-4 lg:text-lg">
           You can choose the Projects by Stacks:
         </h1>
-        <button className="w-100 flex items-center justify-between rounded-lg border-4 border-transparent bg-blue-400 p-4 text-lg font-bold tracking-wider duration-300 active:border-white active:text-white">
+        <button className="w-100 flex items-center justify-between rounded-lg border-4 border-transparent bg-blue-400 p-1 text-xs font-bold tracking-wider duration-300 active:border-white active:text-white lg:p-4 lg:text-lg">
           <select
             value={stack}
             onChange={({ target }) => setStack(target.value)}
@@ -57,7 +57,7 @@ export default function ProjectCards() {
           </select>
         </button>
       </div>
-      <div className="mx-8 my-8 grid grid-cols-4 gap-6">
+      <div className="mx-8 my-8 flex grid-cols-4 flex-col gap-6 lg:grid">
         {filteredProjects.map((project) => (
           <div
             key={project.name}
