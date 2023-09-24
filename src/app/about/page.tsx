@@ -14,7 +14,7 @@ export default function About() {
       <div className="mt-16 flex justify-center">
         <h1 className="text-xl text-zinc-300">About me...</h1>
       </div>
-      <div className="mt-8 flex basis-1/2 flex-col items-center sm:mr-8">
+      <div className="mt-8 flex flex-col items-center p-3">
         <p className="mb-4 text-xl text-zinc-300">
           Hi, my name is Henrique Serres. I am a full stack developer that
           specializes in ReactJS, Javascript, TypeScript as a front-end
@@ -36,7 +36,7 @@ export default function About() {
           Resume
         </button>
       </div>
-      <div className="mt-5 flex grid-cols-3 items-center justify-center gap-20 p-8">
+      <div className="mt-5 grid items-center justify-center  gap-10 p-8 lg:grid-cols-3 lg:gap-20">
         <Image
           src="/family1.jpg"
           alt="family together"
